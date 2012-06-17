@@ -1,0 +1,253 @@
+@charset "UTF-8";
+/* line 1, ../sass/style.scss */
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 6, ../sass/style.scss */
+body {
+  font-family: sans-serif;
+  font-size: 1em;
+  line-height: 1.4em;
+}
+
+/* line 13, ../sass/style.scss */
+a,
+a:visited {
+  color: #1b95af;
+  text-decoration: none;
+}
+
+/* line 18, ../sass/style.scss */
+h1 {
+  font-size: 2em;
+}
+
+/* line 22, ../sass/style.scss */
+h2 {
+  font-size: 1.8em;
+}
+
+/* line 26, ../sass/style.scss */
+h3 {
+  font-size: 1.1em;
+}
+
+/* line 33, ../sass/style.scss */
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Karla", serif;
+  font-weight: normal;
+}
+
+/* line 38, ../sass/style.scss */
+.centered {
+  max-width: 800px;
+  margin-left: 190px;
+  padding: 0 2.5%;
+}
+
+/* line 44, ../sass/style.scss */
+.pageheader {
+  margin-bottom: 20px;
+}
+/* line 46, ../sass/style.scss */
+.pageheader h1 {
+  float: left;
+  margin: 5px 55px 0 55px;
+}
+/* line 50, ../sass/style.scss */
+.pageheader nav {
+  float: left;
+  margin: 12px 0px 0px;
+}
+/* line 53, ../sass/style.scss */
+.pageheader nav a {
+  border-bottom: 1px dotted;
+}
+/* line 55, ../sass/style.scss */
+.pageheader nav a:hover {
+  border-bottom: 1px solid;
+}
+/* line 60, ../sass/style.scss */
+.pageheader li {
+  display: inline-block;
+  padding: 0 16px;
+}
+
+/* line 67, ../sass/style.scss */
+.pageheader h1 a,
+.pageheader h1 a:visited {
+  background: #87071C;
+  color: #fff;
+  padding: 6px;
+  font-size: 0.7em;
+  font-weight: normal;
+  font-family: Ruda, sans-serif;
+}
+
+/* line 77, ../sass/style.scss */
+.pageheader li a,
+.pageheader li a:visited {
+  color: #87071C;
+}
+
+/* line 80, ../sass/style.scss */
+.post-excerpt {
+  margin: 0px;
+}
+/* line 83, ../sass/style.scss */
+.post-excerpt h2 {
+  padding: 0px;
+}
+/* line 85, ../sass/style.scss */
+.post-excerpt h2 a {
+  border-bottom: 1px dotted;
+  padding: 2px;
+}
+/* line 88, ../sass/style.scss */
+.post-excerpt h2 a:hover {
+  color: #FFFFFF;
+  background-color: #222222;
+  border-bottom: 1px solid;
+}
+
+/* line 98, ../sass/style.scss */
+.main header {
+  background: #7C79B4;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* line 102, ../sass/style.scss */
+.main header .centered {
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+/* line 105, ../sass/style.scss */
+.main header h1 {
+  color: #fff;
+  font-weight: normal;
+  font-size: 2.5em;
+  line-height: 1.3;
+  margin: 0;
+}
+/* line 112, ../sass/style.scss */
+.main header .posted {
+  margin-left: 1em;
+  color: #fff;
+  font-size: 0.8em;
+}
+
+/* line 121, ../sass/style.scss */
+.content h2 a {
+  color: #222;
+}
+/* line 125, ../sass/style.scss */
+.content code {
+  background: #eee;
+  display: inline-block;
+  font-size: 0.9em;
+  padding: 0 3px;
+}
+/* line 132, ../sass/style.scss */
+.content ul {
+  font-size: 0.9em;
+  line-height: 1.6;
+}
+/* line 137, ../sass/style.scss */
+.content blockquote {
+  font-size: 0.8em;
+}
+/* line 141, ../sass/style.scss */
+.content hr {
+  border-top-width: 1px;
+  clear: both;
+  border-color: #DFDFDF;
+}
+/* line 147, ../sass/style.scss */
+.content .code-note {
+  background: transparent;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+/* line 153, ../sass/style.scss */
+.content .code-note.green {
+  color: #74AD1B;
+}
+/* line 157, ../sass/style.scss */
+.content .code-note.red {
+  color: #F33535;
+}
+/* line 161, ../sass/style.scss */
+.content .comments input {
+  width: 100%;
+}
+/* line 165, ../sass/style.scss */
+.content #dsq-messagesx-toolbar-icon {
+  width: auto!important;
+  height: auto!important;
+  padding: 3px 5px 4px!important;
+}
+
+/* line 173, ../sass/style.scss */
+.warning {
+  background: #f90;
+  color: #FFF;
+  font-weight: bold;
+  margin: 10px 0;
+  padding: 5px 10px;
+}
+
+/* line 181, ../sass/style.scss */
+.twitter-container {
+  float: left;
+}
+
+/* line 185, ../sass/style.scss */
+.back-to-top {
+  text-align: right;
+}
+/* line 188, ../sass/style.scss */
+.back-to-top a:before {
+  color: #999;
+  content: "⬆";
+  position: relative;
+  font-size: 0.8em;
+  line-height: 1;
+  right: 5px;
+  top: -1px;
+}
+
+/* line 200, ../sass/style.scss */
+.pagefooter {
+  padding-top: 15px;
+  color: #fff;
+  background: #393939;
+  font-size: 0.8em;
+}
+/* line 205, ../sass/style.scss */
+.pagefooter .content {
+  position: relative;
+  padding-right: 220px;
+  padding-bottom: 10px;
+  line-height: 1.7;
+}
+/* line 212, ../sass/style.scss */
+.pagefooter p:last-child {
+  text-align: right;
+}
+/* line 216, ../sass/style.scss */
+.pagefooter img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+/* line 221, ../sass/style.scss */
+.pagefooter a {
+  background-color: #787878;
+  background-color: rgba(120, 120, 120, 0.3);
+  color: #FFF;
+  padding: 3px;
+}
